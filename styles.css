@@ -1,0 +1,137 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+header p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+}
+header .social-links {
+  margin-top: 10px;
+}
+header .social-links a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+header .social-links a:hover {
+  color: #ddd;
+}
+header .social-links a i {
+  margin-right: 5px;
+}
+
+nav {
+  background: #444;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+nav .menu-icon {
+  display: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 80%;
+  margin: 30px auto;
+  max-width: 1200px;
+}
+.container section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container section h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.8em;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+.container section ul {
+  list-style-type: none;
+  padding: 0;
+}
+.container section ul li {
+  margin-bottom: 10px;
+}
+.container .contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container .contact-info div {
+  flex: 1;
+  margin-bottom: 10px;
+}
+.container .contact-info div p {
+  margin: 5px 0;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  nav .menu-icon {
+    display: block;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .contact-info {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
