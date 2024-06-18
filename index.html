@@ -7,114 +7,156 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
     </head>
     <body>
         <header>
-            <h1>Dinuka Ekanayake</h1>
-            <p>Senior Software Engineer</p>
-            <div class="social-links">
-                <a href="https://github.com/Dinuka991/" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://www.linkedin.com/in/dinuka-ekanayake" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            </div>
-        </header>
-    
-
-    <nav>
-        <div id="menu-icon" class="menu-icon">&#9776;</div>
-        <ul id="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Passionate <strong>Senior Software Engineer</strong> with seven years of experience in banking, insurance, telecommunications, and government sectors in Singapore. Expertise in full-stack development, cloud computing, DevOps, Agile methodologies, and scalable microservices design. Proven ability to lead cross-functional teams, drive digital transformation, and optimize application performance. Skilled in leveraging modern technologies to deliver innovative solutions that meet business objectives and enhance user experiences.</p>
-        </section>
-
-        <section id="experience">
-            <h2>Experience</h2>
-            <ul>
-                <li>
-                    <strong>Urban Redevelopment Authority (Outsource from Avensys) </strong>- Senior Software Engineer (07/2023 – Present)
-                    <ul>
-                        <br>
-                        <li>Translated end-user requirements into efficient technical solutions.</li>
-                        <li>Utilized cloud features (e.g., Blob Storage, Function, Key Value Store) for optimized performance and deployments.</li>
-                        <li>Enhanced application security using modern security frameworks , Spring security and JWT tokens.</li>
-                        <li>Conducted security scans to identify and fix vulnerabilities, ensuring compliance with industry standards..</li>
-                        <br>
-                    </ul>
-                </li>
-                <li>
-                    <strong>DBS Bank (Outsource from U3 infortech)</strong> - Senior Software Engineer (08/2022 – 06/2023)
-                    <ul>
-                        <br>
-                        <li>Translated end-user requirements into practical solutions.</li>
-                        <li>Developed secure microservices for inter-service communication.</li>
-                        <li>Created financial reporting systems with Java 11, Spring Boot, Apache POI, MySQL.</li>
-                        <li>Achieved 90% unit test coverage, adhering to SOLID principles and design patterns.</li>
-                        <li>Participated in Jenkins pipeline-based SIT and UAT releases.</li>
-                        <br>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Allianz (Outsource from Acentura)</strong> - Senior Software Engineer (09/2020 – 04/2022)
-                    <ul>
-                        <br>
-                        <li>Developed secure, high-performance microservices using Spring Boot, Java 11, MySQL.</li>
-                        <li>Actively participated in Agile practices including sprint planning and reviews.</li>
-                        <li>Maintained code quality using design patterns, SOLID principles, OOP concepts, and SonarQube.</li>
-                        <br>
-                    </ul>
-                </li>
-                <li>
-                    <strong>Digital Micro Service</strong> - Software Developer (06/2017 – 08/2020)
-                    <ul>
-                        <br>
-                        <li>Developed high-performance server-side code using Java EE and MySQL.</li>
-                        <li>Created mobile-responsive, reusable frontend code using Angular.</li>
-                        <li>Improved code quality through SOLID principles, design patterns, and unit tests.</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li>BSc (Honors) Special Degree in Information Technology, Sri Lanka Institute of Information Technology, Colombo.</li>
-            </ul>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>Developed an Enquiry Handling Module for efficient user query resolution and a common module for large file uploads using cloud storage solutions, optimizing upload/download times by 70%.</li>
-                <li>Engineered a financial reports module, centralizing financial data and reducing workflow time wastage by 30%.</li>
-            </ul>
-        </section>
-        
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <div>
-                    <p><strong>Email:</strong> dinukadarshana007@gmail.com</p>
+            <div class="header-content">
+                <h1>Dinuka Ekanayake</h1>
+                <p>Senior Software Engineer</p>
+                <div class="social-links">
+                    <a href="https://github.com/Dinuka991/" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/dinuka-ekanayake" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://medium.com/@dinukaekanayake92" target="_blank" title="Medium"><i class="fab fa-medium"></i> Medium</a>
+                    <a href="#" id="print-link" title="Print Screen"><i class="fas fa-print"></i> Print</a>
+ 
                 </div>
             </div>
-            
-        </section>
-    </div>
+        </header>
 
-    <footer>
-        <p>&copy; 2024 Dinuka Ekanayake. All rights reserved.</p>
-    </footer>
+        <nav>
+            <div id="menu-icon" class="menu-icon">&#9776;</div>
+            <ul id="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#key-skills">Key Roles </a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
 
-    <script src="scripts.js"></script>
-</body>
+        <div class="container" id="content">
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    Accomplished and results-driven <strong>Senior Software Engineer</strong> with over seven years of extensive experience across diverse sectors including banking, insurance, telecommunications, and government in Singapore. Demonstrated expertise in full-stack development, cloud computing, DevOps, Agile methodologies, and designing scalable microservices architectures. 
+                    Proven track record of leading cross-functional teams to deliver complex projects, driving digital transformation initiatives, and optimizing application performance through innovative solutions. 
+                    Adept at leveraging cutting-edge technologies to align with business objectives and enhance user experiences. Renowned for problem-solving skills, strategic thinking, and a commitment to continuous improvement and excellence.
+                </p>
+            </section>
+
+            <section id="key-skills">
+                <h2>Key Skills</h2>
+                <ul>
+                    <li><strong>Backend Development:</strong> Low-latency API development using Java, Kotlin, Spring Boot, and Spring Cloud. Expertise in microservices architecture and design, ensuring scalable and maintainable systems.</li>
+                    <li><strong>Frontend Development:</strong> Proficient in JavaScript frameworks including Angular, React, and Vue. Skilled in creating responsive, user-friendly interfaces with TypeScript, HTML, and CSS.</li>
+                    <li><strong>Cloud Computing:</strong> Cloud infrastructure management with Azure and AWS. Experienced in leveraging cloud services such as Azure Blob Storage, Azure Functions, AWS S3, AWS Lambda, and AWS EC2 for optimized performance and deployments.</li>
+                    <li><strong>CI/CD and DevOps:</strong> Implementing continuous integration and continuous deployment (CI/CD) pipelines using GitLab CI and Jenkins. Containerization and orchestration with Docker and Kubernetes, ensuring efficient and reliable deployments.</li>
+                    <li><strong>Application Security:</strong> Enhancing security using Spring Security, JWT, OAuth, and OAuth 2.0. Conducting security scans and ensuring compliance with industry standards.</li>
+                    <li><strong>Database Management:</strong> Proficient in MSSQL, MySQL, PL/SQL, and NoSQL databases. Optimizing database performance and ensuring efficient data handling and query processing.</li>
+                    <li><strong>Monitoring and Performance:</strong> Implementing monitoring solutions to ensure system reliability and performance. Skilled in using tools and techniques for performance optimization and troubleshooting.</li>
+                    <li><strong>Agile Methodologies:</strong> Leading cross-functional teams using Agile practices including sprint planning, reviews, and retrospectives. Driving digital transformation and optimizing development processes.</li>
+                </ul>
+            </section>
+
+            <section id="experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li>
+                        <strong>Urban Redevelopment Authority (Outsource from Avensys)</strong> - Senior Software Engineer (07/2023 – Present)
+                        <ul>
+                            <li>Developed scalable, low-latency backend APIs using Java, Spring Boot, and Spring. Optimized database performance and management through effective use of MS SQL, ensuring efficient query processing and data handling.</li>
+                            <li>Developed a comprehensive frontend application using React, JavaScript, and TypeScript.</li>
+                            <li>Enhanced application security using Authentication, Authorization, Spring Security, JWT tokens, and OAuth 2.0.</li>
+                            <li>Managed continuous integration and continuous deployment (CI/CD) pipelines using GitLab CI and Docker. Utilized Azure App Service, Azure Blob Storage, and Azure Functions for optimized performance and reliable deployments.</li>
+                            <li>Implemented an Enquiry Handling Module that allows users to attach various file types, leveraging Azure Blob Storage for secure and scalable file storage. Ensured efficient processing of user queries through asynchronous handling and robust storage solutions.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>DBS Bank Singapore (Outsource from U3 Infotech)</strong> - Senior Software Engineer (08/2022 – 06/2023)
+                        <ul>
+                            <li>Expertly translated end-user requirements into efficient technical solutions in an agile environment, ensuring alignment with business objectives and enhancing stakeholder satisfaction.</li>
+                            <li>Developed scalable, low-latency backend APIs using Java 11, Spring Boot, and Spring. Leveraged AWS services such as AWS S3 for data storage, AWS Lambda for serverless processing, and AWS EC2 for scalable compute resources.</li>
+                            <li>Created comprehensive frontend applications using React, Angular, TypeScript, Material UI, NgRx, and Bootstrap, enhancing the user experience and application responsiveness.</li>
+                            <li>Enhanced application security using OAuth 2.0 and JWT tokens.</li>
+                            <li>Managed continuous integration and continuous deployment (CI/CD) pipelines using Jenkins and Docker for containerization, ensuring consistent and reliable deployments.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Allianz (Outsource from Acentura)</strong> - Senior Software Engineer (09/2020 – 04/2022)
+                        <ul>
+                            <li>Developed scalable, low-latency backend APIs using Java, Spring Boot, and Spring, leveraging AWS services for optimized performance and reliability.</li>
+                            <li>Created comprehensive frontend applications using Angular, React, TypeScript, and NgRx.</li>
+                            <li>Enhanced application security using OAuth 2.0, JWT tokens, and Spring Security.</li>
+                            <li>Managed CI/CD pipelines using Jenkins, Docker, Kubernetes, and AWS for consistent and reliable deployments.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Digital Micro Service</strong> - Software Developer (06/2017 – 08/2020)
+                        <ul>
+                            <li>Developed high-performance server-side code using Java, Spring MVC, and MySQL.</li>
+                            <li>Created mobile-responsive, reusable frontend apps using Angular and React.</li>
+                            <li>Improved code quality through SOLID principles, design patterns, and unit tests using JUnit 5.</li>
+                            <li>Designed and implemented secure, scalable RESTful APIs.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>BSc (Honors) Special Degree in Information Technology, Sri Lanka Institute of Information Technology, Colombo.</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>Implemented an Enquiry Handling Module as a core feature of the main system using Spring Boot, Java, Azure Blob Storage, Azure Functions, MS SQL, React, JavaScript, Docker, GitLab CI, and Azure App Service. This module allows users to attach various file types, significantly enhancing the efficiency of user query resolution and streamlining the handling of diverse enquiries.</li>
+                    <li>Developed a financial report module to efficiently process and manipulate data, reducing report generation time by 70% using modern Java thread-based technologies and asynchronous programming. Leveraged AWS services like AWS S3, AWS Lambda, and AWS EC2 for enhanced performance.</li>
+                    <li>Led the migration of a monolithic application to a microservices architecture, significantly improving system scalability, maintainability, and deployment flexibility. Utilized Microservices, AWS API Gateway, Kubernetes, Docker, Apache Kafka, Java Spring Boot, and Spring MVC.</li>
+                </ul>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li><strong>Programming Languages:</strong> Java, JavaScript, TypeScript, Kotlin</li>
+                    <li><strong>DevOps:</strong> Docker, Kubernetes, CICD, Git, GitLab</li>
+                    <li><strong>Security:</strong> Spring Security, JWT, OAuth, OAuth 2.0</li>
+                    <li><strong>Frameworks:</strong> Spring, Spring Boot, React, Angular</li>
+                    <li><strong>Database:</strong> MSSQL, MySQL, PL/SQL, NoSQL</li>
+                    <li><strong>Others:</strong> Microservices, Unit Testing, REST, Kafka, JUnit</li>
+                </ul>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <div class="contact-info">
+                    <div>
+                        <p><strong>Email:</strong> dinukadarshana007@gmail.com</p>
+                
+                        <p><strong>Location:</strong> Singapore</p>
+                        <p><strong>Nationality:</strong> Sri Lankan</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Dinuka Ekanayake. All rights reserved.</p>
+        </footer>
+
+        <script src="scripts.js"></script>
+        <script>
+            document.getElementById('print-link').addEventListener('click', function(event) {
+                event.preventDefault();
+                var element = document.getElementById('content');
+                html2pdf(element);
+            });
+        </script>
+    </body>
 </html>
